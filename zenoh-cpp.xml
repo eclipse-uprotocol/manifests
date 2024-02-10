@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
     Pulling all the zenoh-cpp repositories and depedencies not
     covered by conan
@@ -5,7 +6,6 @@
     SPDX-FileCopyrightText: 2024 General Motors GTO LLC
     SPDX-License-Identifier: Apache-2.0
 -->
-<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="up" fetch="git@github.com:eclipse-uprotocol" />
     <remote name="zenoh" fetch="git@github.com:eclipse-zenoh" />
