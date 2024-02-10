@@ -9,7 +9,7 @@
 <manifest>
     <remote name="up" fetch="git@github.com:eclipse-uprotocol" />
     <remote name="zenoh" fetch="git@github.com:eclipse-zenoh" />
-    <default remote="uprotocol" revision="main" />
+    <default remote="up" revision="main" />
 
     <project name="zenoh-c" path="zenoh-c" remote="zenoh" /> 
     <project name="up-core-api" path="up-core-api" remote="up" />

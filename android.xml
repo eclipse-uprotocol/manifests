@@ -9,7 +9,7 @@
     <remote name="up" fetch="git@github.com:eclipse-uprotocol" />
     <default remote="up" revision="main" />
 
-    <project name="up-java" path="up" revision="uprotocol-1.5.7" />
+    <project name="up-java" path="up" revision="up-java-1.5.7" />
     <project name="up-client-android-java" path="upclient" />
     <project name="up-android-core" path="core" />
     <project name="up-android-example" path="example" />
