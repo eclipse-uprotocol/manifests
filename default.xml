@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="github" fetch="git@github.com:eclipse-uprotocol" />
+    <default remote="github" revision="main" />
+
+    <project name="up-android-core" path="core" />
+    <project name="up-android-example" path="example" />
+    <project name="up-android-helloworld" path="helloworld" />
+    <project name="up-android-discovery" path="discovery" />
+    <project name="up-simulator-proxy" path="proxy" />
+</manifest>
