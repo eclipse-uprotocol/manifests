@@ -1,0 +1,18 @@
+<!--
+    Pulling all the zenoh-cpp repositories and depedencies not
+    covered by conan
+
+    SPDX-FileCopyrightText: 2024 General Motors GTO LLC
+    SPDX-License-Identifier: Apache-2.0
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="up" fetch="git@github.com:eclipse-uprotocol" />
+    <remote name="zenoh" fetch="git@github.com:eclipse-zenoh" />
+    <default remote="uprotocol" revision="main" />
+
+    <project name="zenoh-c" path="zenoh-c" remote="zenoh" /> 
+    <project name="up-core-api" path="up-core-api" remote="up" />
+    <project name="up-cpp" path="up-cpp" remote="up" />
+    <project name="up-client-zenoh-cpp" remote="up" />
+</manifest>

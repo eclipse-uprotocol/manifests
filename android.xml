@@ -1,11 +1,13 @@
 <!--
+    Fetching the UProtocol Android Libraries
+
     SPDX-FileCopyrightText: 2024 General Motors GTO LLC
     SPDX-License-Identifier: Apache-2.0
 -->
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="github" fetch="git@github.com:eclipse-uprotocol" />
-    <default remote="github" revision="main" />
+    <remote name="up" fetch="git@github.com:eclipse-uprotocol" />
+    <default remote="up" revision="main" />
 
     <project name="up-java" path="up" revision="uprotocol-1.5.7" />
     <project name="up-client-android-java" path="upclient" />
