@@ -1,1 +1,28 @@
-Please refer to link:profile/README.adoc[README.adoc] for the general information about this project.
+# uProtocol Manifest Files
+
+This project contains a collection of manifest files used to pull down and build specific implementations.
+
+## Usage
+You will need to install repo command in order to use these manifest files. You can find the installation instructions [here](https://source.android.com/setup/downloading#installing-repo).
+
+Instructions for fetching a manifest can be found below:
+
+```
+repo init -u https://github.com/eclipse-uprotocol/manifests -m <MANIFEST_FILE>
+```
+
+## Manifest Files
+
+### android.xml
+This manifest file is used to pull down the Android implementation of uProtocol, this includes client libraries, dependencies, core uService implementations, and example apps. 
+
+NOTE: The Android build system requires that you have the android SDK and NDK installed on your machine. You can find the installation instructions [here](https://developer.android.com/studio#downloads). This includes both gradle and maven dependencies.
+
+#### Building
+```
+repo init -u https://github.com/eclipse-uprotocol/manifests -m android.xml
+cd core
+sh build.sh
+```
+
+NOTE: Please refer to documentation in up-android-core for detailed HOWTO run and use the emulator to test your apps and services.  
