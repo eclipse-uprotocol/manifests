@@ -9,6 +9,7 @@ Instructions for fetching a manifest can be found below:
 
 ```
 repo init -u https://github.com/eclipse-uprotocol/manifests -m <MANIFEST_FILE>
+repo sync
 ```
 
 ## Manifest Files
@@ -21,6 +22,7 @@ NOTE: The Android build system requires that you have the android SDK and NDK in
 #### Building
 ```
 repo init -u https://github.com/eclipse-uprotocol/manifests -m android.xml
+repo sync
 cd core
 sh build.sh
 ```
